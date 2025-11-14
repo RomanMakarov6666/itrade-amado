@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = 5, n2 = 3.6;
+
+        let n3 = new Number(7.2);
+        console.log(n1,n2,n3);
+
+        console.log(n1 + n2 + n3);
+        
+        // Округление
+        console.log(12.36.toFixed(1));
+
+        // Infinity, -Infinity, NaN
+        console.log(3/0);
+        console.log(-3/0);
+
+        console.log("строка" / 5);
+
+        // Синтаксический сахар
+        let bigNumber1 = 1500350200;
+        bigNumber2 = 1_500_350_200;
+        console.log(bigNumber1, bigNumber2);
+
+        let bigNumber3 = 7.3e9;
+        let msc = 1e-6;
+        console.log(bigNumber3, msc);
+
+        let sum = .1 + .2;
+        console.log(sum, sum.toFixed(1));
+
+        const bigInt1 = 847784632463296493643624763784678467386478236478632748632784682367823674867832647326478732834324832847237498324896324647647264783267423678436487638427468n
+        console.log(bigInt1);
+    </script>
+    
+</body>
+</html>
