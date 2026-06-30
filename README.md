@@ -2,8 +2,6 @@
 
 iTrade is a simple e-commerce web application built with Spring Boot. Users can register, browse products, publish their own listings with images, search for products, and manage a shopping cart.
 
-This project was originally created during the Belhard Java course using the Amado template. After the course, the application was further improved by fixing existing issues, improving stability, and implementing additional functionality such as shopping cart management.
-
 ## Features
 
 - User registration and authentication
