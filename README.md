@@ -89,7 +89,3 @@ java -jar target/iTrade-0.0.1-SNAPSHOT.jar
 ## Image Storage
 
 Uploaded product images are stored directly in the MySQL database as `LONGBLOB` records together with metadata such as filename, size, and content type.
-
-## About
-
-This project was primarily developed as a learning project. The original version was created during the Belhard Java course, while later work focused on debugging, improving reliability, and extending functionality.
